@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LateRooms Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<!-- GENERAL SEARCH ABOUT HOTELS -->
+
+<body>
+    <img src="laterooms.png" alt="LateRoomsLogo" id="logo" width="200" height="100">
+    <div>
+        <br>
+        <form action="/hotels.json">
+
+            <!-- hotels selection in here, dropdown menu -->
+
+            <p></p>
+
+            <!-- hotel data -->
+
+            <input type="button" onclick="func1()" value="submit">
+            <!-- submit button -->
+            <div></div>
+            <!-- empty div to insert welcome message when pressed on JS -->
+
+
+        </form>
+    </div>
+
+
+
+
+
+    <!-- TARGETED SEARCH USING CHECKBOXES -->
+    <form action="/hotels.json" method="get">
+        <div id="container">
+
+            <!-- checkboxes here with 6 facilities sourced from the object in JSON -->
+        </div>
+
+
+
+        <input type="button" onclick="func2()" value="submit">
+        <div>
+            <!-- empty div to put second message -->
+        </div>
+    </form>
+
+
+    <script src="tech.js"></script>
+</body>
+
+</html>

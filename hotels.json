@@ -1,0 +1,21 @@
+[{
+    "name": "Hotel Armani",
+    "starRating": 5,
+    "facilities": ["Gym ", "Pool ", "Italian restaurant "]
+},
+{
+    "name": "Premier Inn Manchester",
+    "starRating": 3,
+    "facilities": ["Car Park ", "Gym "]
+},
+{
+    "name": "Hotel Marie",
+    "starRating": 3,
+    "facilities": ["Car Park "]
+},
+{
+    "name": "Hotel Plaza",
+    "starRating": 5,
+    "facilities": ["Pool ", "Gym ", "Room Service "]
+}
+]
