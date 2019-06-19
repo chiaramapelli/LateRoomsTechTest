@@ -1,0 +1,25 @@
+{
+  "name": "lateroomstechtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "jests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiaramapelli/LateRoomsTechTest.git"
+  },
+  "author": "chiaramapelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiaramapelli/LateRoomsTechTest/issues"
+  },
+  "homepage": "https://github.com/chiaramapelli/LateRoomsTechTest#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
