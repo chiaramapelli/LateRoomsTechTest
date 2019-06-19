@@ -10,28 +10,34 @@
 </head>
 
 
+
 <!-- GENERAL SEARCH ABOUT HOTELS -->
 
 <body>
     <img src="laterooms.png" alt="LateRoomsLogo" id="logo" width="200" height="100">
     <div>
         <br>
-        <form action="/hotels.json">
-
-            <!-- hotels selection in here, dropdown menu -->
-
-            <p></p>
-
-            <!-- hotel data -->
-
-            <input type="button" onclick="func1()" value="submit">
-            <!-- submit button -->
-            <div></div>
-            <!-- empty div to insert welcome message when pressed on JS -->
-
-
-        </form>
     </div>
+    <div id="heading">Where will LateRooms.com take you?</div>
+    <br>
+    <form action="/hotels.json">
+        <select id="namesOfHotels" name="hotels">
+            <option value="armani" id="armani">Hotel Armani</option>
+            <option value="premierInn">Premier Inn Manchester</option>
+            <option value="marie">Hotel Marie</option>
+            <option value="plaza">Hotel Plaza</option>
+            <br>
+        </select>
+        <br>
+        <br>
+        <div>
+            <p id="hotelData"></p>
+            <p><input type="button" onclick="func1()" value="Submit"></p>
+            <div id="welcomemessage"></div>
+        </div>
+        <br>
+        <hr>
+    </form>
 
 
 
