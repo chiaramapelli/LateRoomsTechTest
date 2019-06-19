@@ -44,20 +44,24 @@
 
 
     <!-- TARGETED SEARCH USING CHECKBOXES -->
-    <form action="/hotels.json" method="get">
+    <form id="secondfunction" action="/hotels.json" method="get">
+        <div id="heading">Any facilities you can't do without? Search for them here!</div>
         <div id="container">
+            <br>
+            <input type="checkbox" class="checks" id="carPark" name="box" value="Car Park"><label for="carPark">Car
+                Park</label>
+            <input type="checkbox" class="checks" id="gym" name="box" value="Gym"><label for="gym">Gym</label>
+            <input type="checkbox" class="checks" id="pool" name="box" value="Pool"><label for="pool">Pool</label>
+            <input type="checkbox" class="checks" id="roomservice" name="box" value="Room Service"><label
+                for="roomservice">Room Service</label>
+            <input type="checkbox" id="italianrestaurant" name="box" value="Italian Restaurant"><label
+                for="italianrestaurant">Italian Restaurant</label>
 
-            <!-- checkboxes here with 6 facilities sourced from the object in JSON -->
         </div>
-
-
-
-        <input type="button" onclick="func2()" value="submit">
-        <div>
-            <!-- empty div to put second message -->
-        </div>
+        <br>
+        <p><input type="button" onclick='func2()' value="Submit" /></p>
+        <div id="filter"></div>
     </form>
-
 
     <script src="tech.js"></script>
 </body>

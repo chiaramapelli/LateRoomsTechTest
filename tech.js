@@ -46,4 +46,3 @@ function displayData() {
     }
 };
 
-//function works ok on webpage - beautified
