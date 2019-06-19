@@ -50,4 +50,16 @@ function displayData() {
 //   2nd function  -- display data according to checked boxes
 // function to print filtered hotels according to id="facilities"
 
+function printChecked() {
+    let items = document.getElementsByName('box');
+    let selectedItems = []
+    for (let i = 0; i < items.length; i++) {
+      if (items[i].type == 'checkbox' && items[i].checked == true)
+        selectedItems.push(items[i].value);
+    }
+    console.log(selectedItems)
+    //alert(selectedItems)
+  }
 
+  //
+  
