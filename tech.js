@@ -41,8 +41,13 @@ function displayData() {
         message.innerHTML = `Welcome to Hotel Marie! Our rating is ${hotelObj[2].starRating}, and we have the following facilities: ${hotelObj[2].facilities}!`
     } else if (hotels.value == 'plaza') {
         message.innerHTML = `Welcome to the Hotel Plaza! Our rating is ${hotelObj[3].starRating}, and we have the following facilities: ${hotelObj[3].facilities}!`
-    } else {
-        console.log('404 Hotel not found.')
     }
 };
+
+//no need for the else as it's a dropdown menu
+
+
+//   2nd function  -- display data according to checked boxes
+// function to print filtered hotels according to id="facilities"
+
 
