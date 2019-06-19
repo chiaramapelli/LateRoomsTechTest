@@ -34,8 +34,21 @@ const higherOrLowerThanSix = () => {
     }
 };
 
+const userCheck = (choice) => {
+    if (choice == "Pool") {
+        let obj = {
+            objName: hotelObj[0].name,
+            objName2: hotelObj[3].name
+        }
+
+        return obj
+    }
+};
+// console.log(userCheck('Pool'))
+
 
 module.exports = {
     hotelObj,
-    higherOrLowerThanSix
+    higherOrLowerThanSix,
+    userCheck
 }

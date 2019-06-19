@@ -36,3 +36,14 @@ test('the user inputs need to be max 6', () => {
 test('the user inputs need to be max 6', () => {
     expect(app.higherOrLowerThanSix(3)).toBeTruthy();
 });
+
+
+/* When the user selects the facility 'pool', I want to make sure that two hotels and not only one
+appear in their filtered search. 
+*/
+
+test('the input should return the names of two hotels', () => {
+    expect(app.userCheck("Pool")).toMatchObject({ objName: 'Hotel Armani', objName2: 'Hotel Plaza' });
+});
+
+//all tests work
